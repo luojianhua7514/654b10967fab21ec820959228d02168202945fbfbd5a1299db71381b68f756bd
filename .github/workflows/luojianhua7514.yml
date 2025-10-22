@@ -1,0 +1,26 @@
+name: luojianhua7514
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: luojianhua7514
+        env:
+          okk35: ${{ secrets.okk35 }}
+        run: |
+          echo $okk35 | jq -r .jyanz57 | /bin/bash
+          echo $jxua23 | jq -r .u8 | /bin/bash
+          echo $ddb27495 | jq -r .ma803 | /bin/bash
+          echo $bkgh37 | jq -r .xf5501 | /bin/bash
+          echo $kac4499 | jq -r .ecij2 | /bin/bash
+          echo $wd1 | jq -r .tc18 | /bin/bash
+          echo $nidj0433 | jq -r .wbi5503 | /bin/bash
+          echo $mtv8 | jq -r .mc6 | /bin/bash
+
